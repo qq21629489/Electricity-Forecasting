@@ -58,6 +58,10 @@ def predict(df):
     # start predict
     forecast = model.predict(future)
     
+    # display
+    # figure = model.plot(forecast)
+    # plt.show()
+    
     print('predict done.')
     
     # modify date range and rename columns
